@@ -1,0 +1,142 @@
+html, body{
+    background-color: #F9F9F9;
+    font-family: 微软雅黑;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.container{
+    width: 1200px;
+    padding: 0;
+}
+.webHeader{
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #CACACA;
+}
+.webHeader .container{
+    display: flex;
+    align-items: center;
+    height: 94px;
+    justify-content: space-between;
+}
+.webHeader .container:before{
+    content: none;
+}
+.webHeader .container:after{
+    content: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    color: #666666;
+    font-size: 12px;
+}
+.logo a{
+    margin-right: 20px;
+    position: relative;
+    top: -5px;
+}
+.logo a:after{
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 10px;
+    width: 1px;
+    height: 20px;
+    background-color: #D4D4D4;
+}
+.webHeader ul{
+    display: flex;
+}
+.webHeader li{
+    padding: 0 45px;
+    position: relative;
+}
+.webHeader li a{
+    color: #666666;
+}
+.webHeader li:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 6px;
+    background-color: #D4D4D4;
+    height: 8px;
+    width: 1px;
+}
+.webHeader .tel{
+    width: 180px;
+    height: 50px;
+    background: rgba(255, 152, 0, 0);
+    border: 1px solid #ff6a004d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF6A00;
+}
+.webHeader .tel img{
+    margin-right: 11px;
+}
+.footer{
+    background-color: #252525;
+    padding-top: 59px;
+}
+.footer .container>div:first-child{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .container:before{
+    content: none;
+}
+.footer .container:after{
+    content: none;
+}
+.footer dl{
+    margin-bottom: 90px;
+}
+.footer dt{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 39px;
+}
+.footer dd{
+    font-size: 12px;
+    margin-bottom: 19px;
+}
+.footer dd a{
+    color: #939598;
+}
+.footer .container>div:last-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .footer_bottom{
+    font-size: 12px;
+    font-family: SimSun;
+    font-weight: 400;
+    color: #939598;
+    line-height: 22px;
+    padding: 23px 0;
+    border-top: 1px solid #4B5054;
+}
+.footer .footer_bottom>div:first-child img{
+    margin-right: 10px;
+}
+.footer .footer_bottom>div:first-child span{
+    margin-right: 47px;
+}
+.webHeader li a:hover{
+    color: #FF6A00;
+}
